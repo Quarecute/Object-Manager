@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/home/q/Documents/cpp/test_task/build",
+  "command": "/usr/bin/clang++ -std=gnu++17 -o CMakeFiles/ObjectManager.dir/src/main.cpp.o -c /home/q/Documents/cpp/test_task/src/main.cpp",
+  "file": "/home/q/Documents/cpp/test_task/src/main.cpp",
+  "output": "/home/q/Documents/cpp/test_task/build/CMakeFiles/ObjectManager.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/q/Documents/cpp/test_task/build",
+  "command": "/usr/bin/clang++ -std=gnu++17 -o CMakeFiles/ObjectManager.dir/src/repository.cpp.o -c /home/q/Documents/cpp/test_task/src/repository.cpp",
+  "file": "/home/q/Documents/cpp/test_task/src/repository.cpp",
+  "output": "/home/q/Documents/cpp/test_task/build/CMakeFiles/ObjectManager.dir/src/repository.cpp.o"
+},
+{
+  "directory": "/home/q/Documents/cpp/test_task/build",
+  "command": "/usr/bin/clang++ -std=gnu++17 -o CMakeFiles/ObjectManager.dir/src/distance_grouping.cpp.o -c /home/q/Documents/cpp/test_task/src/distance_grouping.cpp",
+  "file": "/home/q/Documents/cpp/test_task/src/distance_grouping.cpp",
+  "output": "/home/q/Documents/cpp/test_task/build/CMakeFiles/ObjectManager.dir/src/distance_grouping.cpp.o"
+},
+{
+  "directory": "/home/q/Documents/cpp/test_task/build",
+  "command": "/usr/bin/clang++ -std=gnu++17 -o CMakeFiles/ObjectManager.dir/src/object.cpp.o -c /home/q/Documents/cpp/test_task/src/object.cpp",
+  "file": "/home/q/Documents/cpp/test_task/src/object.cpp",
+  "output": "/home/q/Documents/cpp/test_task/build/CMakeFiles/ObjectManager.dir/src/object.cpp.o"
+},
+{
+  "directory": "/home/q/Documents/cpp/test_task/build",
+  "command": "/usr/bin/clang++ -std=gnu++17 -o CMakeFiles/ObjectManager.dir/src/name_grouping.cpp.o -c /home/q/Documents/cpp/test_task/src/name_grouping.cpp",
+  "file": "/home/q/Documents/cpp/test_task/src/name_grouping.cpp",
+  "output": "/home/q/Documents/cpp/test_task/build/CMakeFiles/ObjectManager.dir/src/name_grouping.cpp.o"
+},
+{
+  "directory": "/home/q/Documents/cpp/test_task/build",
+  "command": "/usr/bin/clang++ -std=gnu++17 -o CMakeFiles/ObjectManager.dir/src/time_grouping.cpp.o -c /home/q/Documents/cpp/test_task/src/time_grouping.cpp",
+  "file": "/home/q/Documents/cpp/test_task/src/time_grouping.cpp",
+  "output": "/home/q/Documents/cpp/test_task/build/CMakeFiles/ObjectManager.dir/src/time_grouping.cpp.o"
+},
+{
+  "directory": "/home/q/Documents/cpp/test_task/build",
+  "command": "/usr/bin/clang++ -std=gnu++17 -o CMakeFiles/ObjectManager.dir/src/type_grouping.cpp.o -c /home/q/Documents/cpp/test_task/src/type_grouping.cpp",
+  "file": "/home/q/Documents/cpp/test_task/src/type_grouping.cpp",
+  "output": "/home/q/Documents/cpp/test_task/build/CMakeFiles/ObjectManager.dir/src/type_grouping.cpp.o"
+},
+{
+  "directory": "/home/q/Documents/cpp/test_task/build",
+  "command": "/usr/bin/clang++ -std=gnu++17 -o CMakeFiles/ObjectManager.dir/src/utils.cpp.o -c /home/q/Documents/cpp/test_task/src/utils.cpp",
+  "file": "/home/q/Documents/cpp/test_task/src/utils.cpp",
+  "output": "/home/q/Documents/cpp/test_task/build/CMakeFiles/ObjectManager.dir/src/utils.cpp.o"
+}
+]

@@ -1,0 +1,3 @@
+/home/q/Documents/cpp/test_task/build/CMakeFiles/ObjectManager.dir
+/home/q/Documents/cpp/test_task/build/CMakeFiles/edit_cache.dir
+/home/q/Documents/cpp/test_task/build/CMakeFiles/rebuild_cache.dir
