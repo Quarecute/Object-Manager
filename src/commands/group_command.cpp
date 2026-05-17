@@ -24,6 +24,7 @@ void GroupCommand::execute(AppContext& ctx) {
     ctx.output << "Пороговое значение N: ";
 
     int threshold;
+    ctx.input >> threshold;
     ctx.input.ignore();    
 
     TypeGroupingStrategy strategy(threshold);

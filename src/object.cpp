@@ -71,12 +71,12 @@ std::string WorldObject::nameGroupLabel() const {
 std::string WorldObject::normalizedType() const {
   std::string result = type_;
   std::transform(result.begin(), result.end(), result.begin(),
-                 [](unsigned char c) { return std::tolower(c); } );
+                 [](unsigned char c) { return std::tolower(c); });
 
   size_t start = result.find_first_not_of(" \t\r\n");
   size_t end = result.find_last_not_of(" \t\r\n");
 
-  if (start == std::string::npos) return result;
+  if (start == std::string::npos) return "";
 
   return result.substr(start, end - start + 1);
 }

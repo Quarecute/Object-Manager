@@ -5,7 +5,7 @@
 
 void printGroups(std::ostream& out, const std::vector<Group>& groups) {
   for (const auto& g : groups) {
-    out << g.name << '\n';
+    out << '\n' << g.name << '\n';
     for (const auto& obj : g.objects) {
       double timestamp = std::chrono::duration<double>(
         obj.creationTime().time_since_epoch()
@@ -14,7 +14,7 @@ void printGroups(std::ostream& out, const std::vector<Group>& groups) {
           << obj.x() << ' '
           << obj.y() << ' '
           << obj.type() << ' '
-          << std::fixed << timestamp << ' ';
+          << std::fixed << timestamp << '\n';
     }
     out << '\n';
   }

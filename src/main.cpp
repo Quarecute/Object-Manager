@@ -1,4 +1,5 @@
 #include <iostream>
+#include <thread>
 #include <vector>
 #include <map>
 #include <memory>
@@ -21,11 +22,12 @@ int main() {
     std::map<int, std::unique_ptr<ICommand>> menu;
     menu[1] = std::make_unique<LoadCommand>();
     menu[2] = std::make_unique<ListCommand>();
-    menu[3] = std::make_unique<ListCommand>();
-    menu[4] = std::make_unique<ListCommand>();
-    menu[5] = std::make_unique<ListCommand>();
+    menu[3] = std::make_unique<AddCommand>();
+    menu[4] = std::make_unique<GroupCommand>();
+    menu[5] = std::make_unique<SaveGroupsCommand>();
 
     while (true) {
+        std::cout << "\033[2J\033[H";
         std::cout << "\n               [ МЕНЮ ]                \n"
                   << "1. Загрузить объекты из файла            \n"
                   << "2. Показать спиcок объектов              \n"
@@ -50,6 +52,8 @@ int main() {
         } else {
             std::cout << "Неверный пункт. Попробуйте снова.\n";
         }
+
+        system("read");
     }
     
     return 0;
