@@ -1,6 +1,5 @@
 #include <chrono>
 #include <iostream>
-#include <fstream>
 #include "../include/grouping_strategy.h"
 #include "../include/utils.h"
 
