@@ -21,3 +21,7 @@ add_executable(${PROJECT_NAME}
   src/commands/group_command.cpp
   src/commands/save_groups_command.cpp
 )
+
+find_package(GTest REQUIRED)
+enable_testing()
+add_subdirectory(tests)

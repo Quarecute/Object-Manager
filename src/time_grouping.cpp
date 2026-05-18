@@ -48,9 +48,7 @@ static std::string getTimeCategory(std::chrono::system_clock::time_point objTime
   return "Ранее";
 }
 
-std::vector<Group> TimeGroupingStrategy::group(const std::vector<WorldObject>& objects) const {
-  auto now = std::chrono::system_clock::now();
-
+std::vector<Group> TimeGroupingStrategy::group(const std::vector<WorldObject>& objects, std::chrono::system_clock::time_point now) const {
   std::vector<WorldObject> sorted = objects;
   std::sort(sorted.begin(), sorted.end(),
             [](const WorldObject& a, const WorldObject& b) {
@@ -74,4 +72,8 @@ std::vector<Group> TimeGroupingStrategy::group(const std::vector<WorldObject>& o
   }
 
   return result;
+}
+
+std::vector<Group> TimeGroupingStrategy::group(const std::vector<WorldObject>& objects) const {
+  return group(objects, std::chrono::system_clock::now());
 }

@@ -18,8 +18,11 @@ std::vector<Group> NameGroupingStrategy::group(const std::vector<WorldObject>& o
 
   std::vector<Group> result;
   for (auto& [label, vec] : groupMap) {
-    result.push_back({label, std::move(vec)});
+    if (label != "#") result.push_back({label, std::move(vec)});
   }
 
+  auto it = groupMap.find("#");
+  if (it != groupMap.end() && !it->second.empty()) result.push_back({"#", it->second});
+  
   return result;
 }
